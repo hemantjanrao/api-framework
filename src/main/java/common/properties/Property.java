@@ -1,4 +1,4 @@
-package api.common.properties;
+package common.properties;
 
 import org.apache.commons.lang3.StringUtils;
 
@@ -64,5 +64,13 @@ public enum Property {
         return retrieveValue(this.systemPropertyKey);
     }
 
+    /**
+     * Check if a property is specified.
+     *
+     * @return true if the property is not empty ("") and not null
+     */
+    public boolean isSpecified() {
+        return StringUtils.isNotEmpty(value);
+    }
 
 }

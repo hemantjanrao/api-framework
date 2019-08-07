@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a962fb6d-37d7-46a9-96ee-330ff4adc959" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/dto_objects/Booking/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/dto_objects/Booking/BookingDates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/dto_objects/Booking/CreateBookingResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/service/BookingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/tests/BookingTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/tests/BaseAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/tests/BaseAPITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/common/listners/RetryFlakyTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/retry/RetryFlakyTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/tests/PingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/tests/PingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api/tests/BaseAPITest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/tests/BaseAPITest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/common/properties/Property.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/common/properties/Property.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/tests/PingTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/api/tests/PingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/api/tests/PingTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,36 +22,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/common/retry/RetryFlakyTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/api/tests/PingTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/api/tests/BookingTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="405">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#307#308#0" expanded="true" />
-                <element signature="e#380#381#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,7 +78,17 @@
         <option value="$PROJECT_DIR$/src/main/java/api/tests/BaseAPITest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/api/dto/booking/BookingDates.java" />
+        <option value="$PROJECT_DIR$/src/test/java/api/dto/booking/Booking/Booking.java" />
+        <option value="$PROJECT_DIR$/src/test/java/api/dto/booking/Booking.java" />
+        <option value="$PROJECT_DIR$/src/test/java/api/dto/booking/Booiking/Booking.java" />
+        <option value="$PROJECT_DIR$/src/test/java/api/dto_objects/Booiking/Booking.java" />
+        <option value="$PROJECT_DIR$/src/test/java/api/dto_objects/Booking/BookingDates.java" />
+        <option value="$PROJECT_DIR$/src/test/java/api/dto_objects/Booking/Booking.java" />
+        <option value="$PROJECT_DIR$/src/test/java/api/dto_objects/Booking/CreateBookingResponse.java" />
         <option value="$PROJECT_DIR$/src/test/java/api/tests/PingTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/api/service/BookingService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/api/tests/BookingTests.java" />
       </list>
     </option>
   </component>
@@ -163,6 +148,24 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apiserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apiserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apiserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apiserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -200,24 +203,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="constants" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="apiserver" type="b2602c69:ProjectViewProjectNode" />
-              <item name="apiserver" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="apiserver" type="b2602c69:ProjectViewProjectNode" />
-              <item name="apiserver" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -229,7 +214,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565182225097" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565193676357" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -238,6 +223,9 @@
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="api.dto_objects.Booking" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
@@ -255,7 +243,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.PingTest">
+  <component name="RunManager" selected="TestNG.BookingTests.create_new_booking">
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="api.common.properties.test" />
       <module name="apiserver" />
@@ -269,7 +257,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PingTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BookingTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="apiserver" />
       <extension name="coverage">
         <pattern>
@@ -278,8 +266,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="api.tests" />
-      <option name="MAIN_CLASS_NAME" value="api.tests.PingTest" />
+      <option name="MAIN_CLASS_NAME" value="api.tests.BookingTests" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookingTests.create_new_booking" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="apiserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api.tests" />
+      <option name="MAIN_CLASS_NAME" value="api.tests.BookingTests" />
+      <option name="METHOD_NAME" value="create_new_booking" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -288,7 +294,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.PingTest" />
+        <item itemvalue="TestNG.BookingTests.create_new_booking" />
+        <item itemvalue="TestNG.BookingTests" />
         <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
@@ -307,18 +314,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PingTest - 2019.08.07 at 12h 13m 33s.xml">
-      <configuration name="PingTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PingTest - 2019.08.07 at 12h 14m 38s.xml">
-      <configuration name="PingTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PingTest - 2019.08.07 at 12h 18m 05s.xml">
-      <configuration name="PingTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PingTest - 2019.08.07 at 12h 18m 11s.xml">
-      <configuration name="PingTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="PingTest - 2019.08.07 at 14h 22m 37s.xml">
       <configuration name="PingTest" configurationId="TestNG" />
     </history-entry>
@@ -337,12 +332,24 @@
     <history-entry file="PingTest - 2019.08.07 at 14h 42m 20s.xml">
       <configuration name="PingTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="PingTest_create_new_booking - 2019.08.07 at 17h 45m 26s.xml">
+      <configuration name="PingTest.create_new_booking" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PingTest_create_new_booking - 2019.08.07 at 17h 47m 02s.xml">
+      <configuration name="PingTest.create_new_booking" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PingTest_create_new_booking - 2019.08.07 at 17h 51m 05s.xml">
+      <configuration name="PingTest.create_new_booking" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PingTest_create_new_booking - 2019.08.07 at 18h 01m 08s.xml">
+      <configuration name="PingTest.create_new_booking" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -351,7 +358,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3291536" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3291536" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39916405" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -392,11 +399,26 @@
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/api/tests/BookingTests.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/api/service/BookingService.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="TestNG">
         <watch expression="BookerEndpoints.PING.getUrl()" />
+        <watch expression="booking" />
+        <watch expression="ExtractableResponse" />
+        <watch expression="bookingResponse" />
       </configuration>
     </watches-manager>
   </component>
@@ -509,21 +531,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/4.0.0/rest-assured-4.0.0.jar!/io/restassured/specification/RequestSpecification.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/api_tests/constants/ApiEndpoints.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/api/Endpoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/api/tests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -531,30 +539,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/api/AbstractBookerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/Invoker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="592" selection-start-line="592" selection-end-line="592" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/api/constants/BookerEndpoints.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#440#441#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -573,18 +561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/api/service/PingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -622,10 +598,116 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/api/service/PingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/api/Endpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/retry/RetryFlakyTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/api/dto/booking/BookingDates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/api/dto_objects/Booking/BookingDates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/4.0.0/rest-assured-4.0.0.jar!/io/restassured/response/ResponseBodyExtractionOptions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/4.0.0/rest-assured-4.0.0.jar!/io/restassured/internal/RestAssuredResponseOptionsImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="149" selection-start-line="149" selection-end-line="149" />
+          <folding>
+            <element signature="e#4451#4452#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/api/constants/BookerEndpoints.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#440#441#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/4.0.0/rest-assured-4.0.0.jar!/io/restassured/specification/RequestSpecification.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/4.0.0/rest-assured-4.0.0.jar!/io/restassured/response/ValidatableResponseOptions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/4.0.0/rest-assured-4.0.0.jar!/io/restassured/internal/ValidatableResponseOptionsImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="254" selection-start-line="254" selection-end-line="254" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/4.0.0/rest-assured-4.0.0.jar!/io/restassured/internal/ValidatableResponseImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/api/services/BaseService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
+        <state relative-caret-position="378">
+          <caret line="126" column="27" lean-forward="true" selection-start-line="120" selection-start-column="15" selection-end-line="126" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1911#1912#0" expanded="true" />
@@ -636,14 +718,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/api/AbstractBookerService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+        <state relative-caret-position="363">
+          <caret line="29" column="23" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#955#956#0" expanded="true" />
+            <element signature="e#1009#1010#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/retry/RetryFlakyTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/api/dto_objects/Booking/Booking.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
@@ -653,14 +740,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/api/tests/PingTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/api/service/BookingService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="150">
+          <caret line="10" column="76" lean-forward="true" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/api/dto_objects/Booking/CreateBookingResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/api/tests/BookingTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

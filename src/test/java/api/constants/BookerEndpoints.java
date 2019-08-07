@@ -1,4 +1,4 @@
-package api_tests.constants;
+package api.constants;
 
 import api.Endpoint;
 

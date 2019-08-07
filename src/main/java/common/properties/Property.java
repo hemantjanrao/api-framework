@@ -9,7 +9,8 @@ import java.util.Properties;
 
 public enum Property {
 
-    PROXY("proxy");
+    PROXY("proxy"),
+    MAX_RETRY_COUNT("maxRetryCount");
 
     private static Properties properties = null;
     private String value;
@@ -64,13 +65,12 @@ public enum Property {
         return retrieveValue(this.systemPropertyKey);
     }
 
-    /**
-     * Check if a property is specified.
-     *
-     * @return true if the property is not empty ("") and not null
-     */
     public boolean isSpecified() {
         return StringUtils.isNotEmpty(value);
+    }
+
+    public int getIntWithDefault(int defaultValue){
+        return isSpecified() ? Integer.parseInt(value) : defaultValue;
     }
 
 }

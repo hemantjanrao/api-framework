@@ -1,7 +1,7 @@
-package api_tests;
+package api;
 
 import api.services.BaseService;
-import api_tests.constants.BookerEndpoints;
+import api.constants.BookerEndpoints;
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
 import io.restassured.response.ExtractableResponse;

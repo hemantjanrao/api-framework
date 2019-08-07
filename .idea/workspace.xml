@@ -2,15 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a962fb6d-37d7-46a9-96ee-330ff4adc959" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/Endpoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api_tests/AbstractBookerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api_tests/constants/BookerEndpoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api_tests/service/PingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/tests/BaseAPITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/common/listners/RetryFlakyTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/tests/PingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/common/properties/Property.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/properties/Property.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/services/BaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/services/BaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/common/properties/Property.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/properties/Property.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api_tests/AbstractBookerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/AbstractBookerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api_tests/constants/BookerEndpoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/constants/BookerEndpoints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api_tests/service/PingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/service/PingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/common/properties/Property.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/common/properties/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/services/BaseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/services/BaseService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,38 +32,102 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/api/services/BaseService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="58" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="58" />
+            <state relative-caret-position="160">
+              <caret line="107" column="39" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1911#1912#0" expanded="true" />
+                <element signature="e#1961#1962#0" expanded="true" />
+                <element signature="e#2237#2238#0" expanded="true" />
+                <element signature="e#2292#2293#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/api_tests/AbstractBookerService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/common/properties/Property.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+            <state relative-caret-position="760">
+              <caret line="72" column="70" selection-start-line="72" selection-start-column="70" selection-end-line="72" selection-end-column="70" />
+              <folding>
+                <element signature="e#1658#1659#0" expanded="true" />
+                <element signature="e#1718#1719#0" expanded="true" />
+                <element signature="e#1897#1898#0" expanded="true" />
+                <element signature="e#1973#1974#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/4.0.0/rest-assured-4.0.0.jar!/io/restassured/http/Method.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/api/tests/PingTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#884#885#0" expanded="true" />
-                <element signature="e#938#939#0" expanded="true" />
+                <element signature="e#236#237#0" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/api_tests/service/PingService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/common/listners/RetryFlakyTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
+            <state relative-caret-position="195">
+              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#151#152#0" expanded="true" />
-                <element signature="e#178#179#0" expanded="true" />
+                <element signature="e#208#209#0" expanded="true" />
+                <element signature="e#236#237#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/google/truth/truth/1.0/truth-1.0.jar!/com/google/common/truth/Subject.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="90" column="16" selection-start-line="90" selection-start-column="16" selection-end-line="90" selection-end-column="16" />
+              <folding>
+                <element signature="e#3662#3663#0" expanded="true" />
+                <element signature="e#3710#3711#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/api/service/PingService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#177#178#0" expanded="true" />
+                <element signature="e#252#253#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,6 +144,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>proper</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -83,17 +159,23 @@
         <option value="$PROJECT_DIR$/src/main/java/api/common/properties/properties/Properties.java" />
         <option value="$PROJECT_DIR$/src/main/java/api/common/properties/Properties.java" />
         <option value="$PROJECT_DIR$/src/main/java/api/dto/AbstractDTO.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
         <option value="$PROJECT_DIR$/src/main/java/api/common/properties/test.java" />
         <option value="$PROJECT_DIR$/src/main/java/api/common/properties/Property.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/api/services/BaseService.java" />
         <option value="$PROJECT_DIR$/src/main/java/api/Endpoint.java" />
         <option value="$PROJECT_DIR$/src/test/java/api_tests/constants/ApiEndpoints.java" />
         <option value="$PROJECT_DIR$/src/test/java/api_tests/BookerEndpoints.java" />
         <option value="$PROJECT_DIR$/src/test/java/api_tests/constants/BookerEndpoints.java" />
         <option value="$PROJECT_DIR$/src/test/java/api_tests/AbstractBookerService.java" />
         <option value="$PROJECT_DIR$/src/test/java/api_tests/service/PingService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/api/tests/BaseAPITest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/api/services/BaseService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/api/AbstractBookerService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/api/tests/PingTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/api/service/PingService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/common/properties/Property.java" />
+        <option value="$PROJECT_DIR$/src/main/java/common/listners/RetryFlakyTests.java" />
       </list>
     </option>
   </component>
@@ -114,7 +196,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -153,6 +234,23 @@
               <item name="apiserver" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apiserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apiserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="listners" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apiserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apiserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -174,17 +272,45 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api_tests" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apiserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apiserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="constants" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apiserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apiserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apiserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apiserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565122121858" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565180389610" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -207,7 +333,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.PingTest">
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="api.common.properties.test" />
       <module name="apiserver" />
@@ -221,8 +347,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PingTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="apiserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api.tests" />
+      <option name="MAIN_CLASS_NAME" value="api.tests.PingTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PingTest" />
         <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
@@ -240,18 +384,49 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="PingTest - 2019.08.07 at 11h 53m 59s.xml">
+      <configuration name="PingTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PingTest - 2019.08.07 at 11h 54m 12s.xml">
+      <configuration name="PingTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PingTest - 2019.08.07 at 11h 55m 56s.xml">
+      <configuration name="PingTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PingTest - 2019.08.07 at 11h 55m 59s.xml">
+      <configuration name="PingTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PingTest - 2019.08.07 at 11h 57m 39s.xml">
+      <configuration name="PingTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PingTest - 2019.08.07 at 12h 13m 29s.xml">
+      <configuration name="PingTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PingTest - 2019.08.07 at 12h 13m 33s.xml">
+      <configuration name="PingTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PingTest - 2019.08.07 at 12h 14m 38s.xml">
+      <configuration name="PingTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PingTest - 2019.08.07 at 12h 18m 05s.xml">
+      <configuration name="PingTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PingTest - 2019.08.07 at 12h 18m 11s.xml">
+      <configuration name="PingTest" configurationId="TestNG" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3291536" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3291536" />
@@ -263,6 +438,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3291536" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3291536" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -277,39 +453,43 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar!/org/apache/commons/lang3/builder/ReflectionToStringBuilder.class</url>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/common/properties/Property.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/api/service/PingService.java</url>
           <line>11</line>
           <properties />
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/common/properties/Property.java</url>
-          <line>18</line>
+          <url>file://$PROJECT_DIR$/src/main/java/api/services/BaseService.java</url>
+          <line>102</line>
           <properties />
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/common/properties/Property.java</url>
-          <line>24</line>
+          <url>file://$PROJECT_DIR$/src/main/java/api/services/BaseService.java</url>
+          <line>103</line>
           <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/common/properties/Property.java</url>
-          <line>46</line>
-          <properties />
-          <option name="timeStamp" value="5" />
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="TestNG">
+        <watch expression="BookerEndpoints.PING.getUrl()" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>getResponseSpec()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Property.PROXY.isSpecified()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>System.getProperty(&quot;config&quot;)</expression-string>
         <language-id>JAVA</language-id>
@@ -396,24 +576,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/api/common/properties/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
-          <folding>
-            <element signature="e#96#97#0" expanded="true" />
-            <element signature="e#132#133#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/api/common/properties/test.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/api/dto/AbstractDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -424,10 +587,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/properties/Property.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/4.0.0/rest-assured-4.0.0.jar!/io/restassured/specification/RequestSpecification.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="790">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        <state relative-caret-position="74">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/api_tests/constants/ApiEndpoints.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/api/Endpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/api/tests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/api/tests/BaseAPITest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/api/AbstractBookerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -436,79 +631,112 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="730">
-          <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+        <state relative-caret-position="113">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/4.0.0/rest-assured-4.0.0.jar!/io/restassured/specification/RequestSpecification.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/Invoker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        <state relative-caret-position="266">
+          <caret line="592" selection-start-line="592" selection-end-line="592" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/api/Endpoint.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/api/constants/BookerEndpoints.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/api_tests/constants/ApiEndpoints.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="255">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/api_tests/constants/BookerEndpoints.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/truth/truth/1.0/truth-1.0.jar!/com/google/common/truth/Subject.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        <state relative-caret-position="205">
+          <caret line="90" column="16" selection-start-line="90" selection-start-column="16" selection-end-line="90" selection-end-column="16" />
           <folding>
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#156#157#0" expanded="true" />
-            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#3662#3663#0" expanded="true" />
+            <element signature="e#3710#3711#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/4.0.0/rest-assured-4.0.0.jar!/io/restassured/http/Method.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/api/service/PingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/api/services/BaseService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="58" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="58" />
+        <state relative-caret-position="160">
+          <caret line="107" column="39" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1911#1912#0" expanded="true" />
+            <element signature="e#1961#1962#0" expanded="true" />
+            <element signature="e#2237#2238#0" expanded="true" />
+            <element signature="e#2292#2293#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/api_tests/AbstractBookerService.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/api/tests/PingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#884#885#0" expanded="true" />
-            <element signature="e#938#939#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/api_tests/service/PingService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
+        <state relative-caret-position="15">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/properties/Property.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="72" column="70" selection-start-line="72" selection-start-column="70" selection-end-line="72" selection-end-column="70" />
+          <folding>
+            <element signature="e#1658#1659#0" expanded="true" />
+            <element signature="e#1718#1719#0" expanded="true" />
+            <element signature="e#1897#1898#0" expanded="true" />
+            <element signature="e#1973#1974#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/listners/RetryFlakyTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
           </folding>
         </state>
       </provider>

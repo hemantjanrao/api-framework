@@ -1,4 +1,4 @@
-package common.listners;
+package common.retry;
 
 import common.properties.Property;
 import org.testng.IRetryAnalyzer;

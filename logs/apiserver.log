@@ -1,1 +1,7 @@
 2019-08-07 14:42:18.133 [main] INFO  PingTest - YEs
+2019-08-08 16:40:45.157 [main] INFO  TestListner - START api.tests.BookingTests.create_new_booking
+2019-08-08 16:40:55.712 [main] INFO  TestListner - START api.tests.BookingTests.pingTestServer
+2019-08-08 16:49:19.378 [main] INFO  TestListner - START api.tests.BookingTests.create_new_booking
+2019-08-08 16:49:23.111 [main] INFO  TestListner - SUCCESS api.tests.BookingTests.create_new_booking
+2019-08-08 16:49:23.112 [main] INFO  TestListner - START api.tests.BookingTests.pingTestServer
+2019-08-08 16:49:23.757 [main] INFO  TestListner - SUCCESS api.tests.BookingTests.pingTestServer

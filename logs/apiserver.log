@@ -5,3 +5,15 @@
 2019-08-08 16:49:23.111 [main] INFO  TestListner - SUCCESS api.tests.BookingTests.create_new_booking
 2019-08-08 16:49:23.112 [main] INFO  TestListner - START api.tests.BookingTests.pingTestServer
 2019-08-08 16:49:23.757 [main] INFO  TestListner - SUCCESS api.tests.BookingTests.pingTestServer
+2019-08-08 16:59:44.424 [main] INFO  TestListner - START api.tests.BookingTests.create_new_booking
+2019-08-08 16:59:48.016 [main] INFO  TestListner - SUCCESS api.tests.BookingTests.create_new_booking
+2019-08-08 16:59:48.017 [main] INFO  TestListner - START api.tests.BookingTests.pingTestServer
+2019-08-08 16:59:48.690 [main] INFO  TestListner - SUCCESS api.tests.BookingTests.pingTestServer
+2019-08-12 12:08:58.663 [main] INFO  TestListner - START api.tests.BookingTests.create_new_booking
+2019-08-12 12:09:02.041 [main] INFO  TestListner - SUCCESS api.tests.BookingTests.create_new_booking
+2019-08-12 12:09:02.042 [main] INFO  TestListner - START api.tests.BookingTests.pingTestServer
+2019-08-12 12:09:02.634 [main] INFO  TestListner - SUCCESS api.tests.BookingTests.pingTestServer
+2019-08-12 12:09:44.955 [main] INFO  TestListner - START api.tests.BookingTests.create_new_booking
+2019-08-12 12:09:47.642 [main] INFO  TestListner - SUCCESS api.tests.BookingTests.create_new_booking
+2019-08-12 12:09:47.643 [main] INFO  TestListner - START api.tests.BookingTests.pingTestServer
+2019-08-12 12:09:48.234 [main] INFO  TestListner - SUCCESS api.tests.BookingTests.pingTestServer

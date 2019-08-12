@@ -163,6 +163,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/testng.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/travis.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../frameworkium-core/src/main/java/com/frameworkium/core/api/dto/AbstractDTO.java">
           <value>
             <set />

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="3296" started-at="2019-08-12T10:09:44Z" finished-at="2019-08-12T10:09:48Z">
+    <groups>
+    </groups>
+    <test name="exampletest2" duration-ms="3296" started-at="2019-08-12T10:09:44Z" finished-at="2019-08-12T10:09:48Z">
+      <class name="api.tests.BookingTests">
+        <test-method status="PASS" signature="create_new_booking()[pri:0, instance:api.tests.BookingTests@a514af7]" name="create_new_booking" duration-ms="2690" started-at="2019-08-12T10:09:44Z" finished-at="2019-08-12T10:09:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_new_booking -->
+        <test-method status="PASS" signature="pingTestServer()[pri:0, instance:api.tests.BookingTests@a514af7]" name="pingTestServer" duration-ms="591" started-at="2019-08-12T10:09:47Z" finished-at="2019-08-12T10:09:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pingTestServer -->
+      </class> <!-- api.tests.BookingTests -->
+    </test> <!-- exampletest2 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
